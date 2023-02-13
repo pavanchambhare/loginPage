@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  left: 20%;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+   
+  
+    position: relative;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  color: #fff;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+  margin: 10px;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+body{
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+h2{
+  color: white;
+ position: relative;
+ left: 7rem;
+
+
+}
+.logo{
+  position: relative;
+  left: 35%;
+  color: white;
+  height: 60px;
+  width: 60px;
+}
